@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="devops-image">
+            <img src="DevOps-lifecycle.jpg" alt="DevOps LifeCycle">
+        </div>
+        <div class="registration-form">
+            <h2>Venkat DevOps Registration</h2>
+            <form id="registrationForm" action="/submit" method="post">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                <input type="text" id="degree" name="degree" placeholder="Degree" required>
+                <input type="number" id="graduationYear" name="graduationYear" placeholder="Year of Graduation" required>
+                <input type="number" id="itExperience" name="itExperience" placeholder="IT Experience (years)" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
